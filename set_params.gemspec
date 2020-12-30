@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.email         = 'johnl@johnlabovitz.com'
   gem.summary       = %q{Default #initialize method}
   gem.description   = %q{Default #initialize method.}
-  # gem.homepage      = 'https://github.com/jslabovitz/set_params.git'
+  gem.homepage      = 'https://github.com/jslabovitz/set_params.git'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
@@ -15,6 +15,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   gem.add_development_dependency 'bundler'
-  gem.add_development_dependency 'pry'
   gem.add_development_dependency 'rake'
 end
